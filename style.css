@@ -1,0 +1,124 @@
+
+body{
+    background-image: url("http://zpliveeducation.com/download/assets/images/pattern.png");
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+}
+.navbar{
+    font-size: 15px;
+
+}
+.fa{
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    margin-right:5px;
+    margin-left:15px ;
+}
+.syll{
+    display: flex;
+    overflow:auto;
+    scroll-behavior:auto;
+}
+.item{
+    margin: 5vh 2vh;
+    text-align: center;
+}
+.item>a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+.item{
+    text-transform: capitalize;
+}
+.mainText{
+    font-size:6vh;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight:bolder;
+}
+.item>a>img{
+    height: 20vh;
+    width: 20vh;
+    padding: 3vh;
+    margin-left: 2vh;
+    border-radius: 100%;
+    border: thin solid transparent;
+    background-color: rgba(172, 167, 167, 0.2);
+    margin-top: 2vh;
+
+}
+.item>a{
+    color:white;
+    font-weight: bolder;
+}
+.item>a>img:hover{
+    transform: scale(1.3);
+    box-shadow: 5px 5px 15px 1px black;
+
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vh;
+    margin-top: 10vh;
+}
+.sub-items>a>img{
+    width: 400px;
+    height: 250px;
+    margin:0vh 3vh;
+    margin-bottom: 3vh;
+    border-radius: 8%;
+}
+
+.sub-items>a>img:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 1px black;
+}
+.sub-item-text{
+    font-size: xx-large;
+    opacity: 0.7;
+    color: #181818;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    font-family: 'Mukta', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    margin-top: 10vh;
+    padding-top: 3vh;
+    font-size:medium;
+    font-family: cursive;
+    opacity: 0.8;
+}
+footer>p>a{
+    text-decoration: none;
+    color: black;
+}
+/* refrence by w3school */
+::-webkit-scrollbar{
+    width:1vh;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.0);
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(135, 207, 235, 0.0);
+}
+::-webkit-scrollbar-track:hover{
+    background-color: rgba(135, 207, 235, 1);
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(255, 255, 255, 1);
+}

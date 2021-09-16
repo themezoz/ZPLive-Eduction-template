@@ -1,0 +1,26 @@
+
+
+
+footer{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.1);
+    margin-top: 10vh;
+    padding-top: 3vh;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.8;
+}
+footer>p>a{
+    text-decoration: none;
+    color: black;
+}
+/* refrence by w3school */
+::-webkit-scrollbar{
+    width:1vh;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(135, 207, 235, 0.3);
+}
